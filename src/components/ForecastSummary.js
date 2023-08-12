@@ -13,8 +13,9 @@ import React from "react";
 
 function ForecastSummary(props) {
 	const { date, temperature, description, icon } = props;
+	const formattedDate = new Date(date).toDateString();
 	return (
-		<div className="forecast">{`Here is the forecast data: ${date}, ${temperature}, ${description}, ${icon}
+		<div className="forecast">{`Here is the forecast data: ${formattedDate}, ${temperature}˚C, ${description}, ${icon}
 		`}</div>
 	);
 }
