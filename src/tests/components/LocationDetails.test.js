@@ -7,6 +7,7 @@ describe("LocationDetails", () => {
 		const { getByText } = render(
 			<LocationDetails city="Manchester" country="UK" />
 		);
+		// eslint-disable-next-line testing-library/prefer-screen-queries
 		expect(getByText("Manchester, UK")).toBeInstanceOf(HTMLHeadingElement);
 	});
 });
