@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import LocationDetails from "./LocationDetails";
+import ForecastSummary from "./ForecastSummary";
 
 function App(props) {
 	const { location } = props;

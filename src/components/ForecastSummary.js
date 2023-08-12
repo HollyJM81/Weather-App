@@ -15,8 +15,12 @@ function ForecastSummary(props) {
 	const { date, temperature, description, icon } = props;
 	const formattedDate = new Date(date).toDateString();
 	return (
-		<div className="forecast">{`Here is the forecast data: ${formattedDate}, ${temperature}˚C, ${description}, ${icon}
-		`}</div>
+		<div className="forecast-summary">
+			<div classname="forecast-summary__date">{formattedDate}</div>
+			<div classname="forecast-summary__temperature_max">{temperature}˚C</div>
+			<div classname="forecast-summary__description">{description}</div>
+			<div classname="forecast-summary__icon">{icon}</div>
+		</div>
 	);
 }
 

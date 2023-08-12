@@ -24,7 +24,7 @@ describe("ForecastSummary", () => {
 
 		expect(
 			// eslint-disable-next-line testing-library/prefer-screen-queries
-			getByText("Here is the forecast data: Thu Jan 01 1970, 22˚C, sweaty, sun")
+			getByText("Thu Jan 01 1970")
 		).toBeInstanceOf(HTMLDivElement);
 	});
 });
