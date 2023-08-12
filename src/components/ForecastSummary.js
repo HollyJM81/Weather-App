@@ -13,7 +13,10 @@ import React from "react";
 
 function ForecastSummary(props) {
 	const { date, temperature, description, icon } = props;
-	return <div className="forecast">{`Here is the forecast data`}</div>;
+	return (
+		<div className="forecast">{`Here is the forecast data: ${date}, ${temperature}, ${description}, ${icon}
+		`}</div>
+	);
 }
 
 export default ForecastSummary;

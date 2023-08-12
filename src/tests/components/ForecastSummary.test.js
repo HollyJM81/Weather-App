@@ -13,8 +13,10 @@ describe("ForecastSummary", () => {
 			/>
 		);
 		// eslint-disable-next-line testing-library/prefer-screen-queries
-		expect(getByText("Here is the forecast data")).toBeInstanceOf(
-			HTMLDivElement
-		);
+		expect(
+			getByText(
+				"Here is the forecast data: 01/01/2024, 25 degrees, sweaty, sun"
+			)
+		).toBeInstanceOf(HTMLDivElement);
 	});
 });
