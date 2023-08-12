@@ -9,7 +9,7 @@ describe("ForecastSummary", () => {
 		icon: "stubIcon",
 		temperature: {
 			min: 8,
-			max: "22",
+			max: 22,
 		},
 	};
 
@@ -35,7 +35,7 @@ describe("ForecastSummary", () => {
 			/>
 		);
 
-		expect(getByText("Thu Jan 01 1970")).toHaveAttribute(
+		expect(getByText("Thu 1st Jan")).toHaveAttribute(
 			"class",
 			"forecast-summary__date"
 		);
