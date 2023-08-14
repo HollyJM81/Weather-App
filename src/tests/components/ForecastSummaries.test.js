@@ -66,4 +66,12 @@ describe("ForecastSummaries", () => {
 	});
 
 	// list testing
+
+	it("renders all forecast summaries", () => {
+		const { getAllByTestId } = render(
+			<ForecastSummaries forecasts={validProps.forecasts} />
+		);
+
+		expect(getAllByTestId("forecast-summary")).toHaveLength(5);
+	});
 });
