@@ -18,9 +18,9 @@ describe("ForecastSummary", () => {
 		const { asFragment } = render(
 			<ForecastSummary
 				date={validProps.date}
-				description={validProps.description}
 				icon={validProps.icon}
 				temperature={validProps.temperature}
+				description={validProps.description}
 			/>
 		);
 		expect(asFragment()).toMatchSnapshot();
@@ -30,8 +30,8 @@ describe("ForecastSummary", () => {
 		const { getByText, getByTestId } = render(
 			<ForecastSummary
 				date={validProps.date}
-				description={validProps.description}
 				icon={validProps.icon}
+				description={validProps.description}
 				temperature={validProps.temperature}
 			/>
 		);

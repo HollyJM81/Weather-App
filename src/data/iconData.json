@@ -1,0 +1,46 @@
+{
+	"weather": [
+		{
+			"id": 200,
+			"main": "Thunderstorm",
+			"description": "thunderstorm",
+			"icon": "09d"
+		},
+		{
+			"id": 300,
+			"main": "Drizzle",
+			"description": "drizzle",
+			"icon": "10d"
+		},
+		{
+			"id": 500,
+			"main": "Rain",
+			"description": "rain",
+			"icon": "10d"
+		},
+		{
+			"id": 600,
+			"main": "Snow",
+			"description": "snow",
+			"icon": "13d"
+		},
+		{
+			"id": 700,
+			"main": "Fog",
+			"description": "fog",
+			"icon": "50d"
+		},
+		{
+			"id": 800,
+			"main": "Clear",
+			"description": "clear sky",
+			"icon": "01d"
+		},
+		{
+			"id": 801,
+			"main": "Clouds",
+			"description": "scattered clouds",
+			"icon": "03d"
+		}
+	]
+}

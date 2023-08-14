@@ -1,6 +1,8 @@
 import React from "react";
 import ForecastSummary from "./ForecastSummary";
 
+import "../styles/ForecastSummaries.css";
+
 function ForecastSummaries(props) {
 	const { forecasts } = props;
 	console.log(forecasts);
@@ -10,9 +12,9 @@ function ForecastSummaries(props) {
 				<ForecastSummary
 					key={forecast.date}
 					date={forecast.date}
-					description={forecast.description}
 					icon={forecast.icon}
 					temperature={forecast.temperature}
+					description={forecast.description}
 				/>
 			))}
 		</div>

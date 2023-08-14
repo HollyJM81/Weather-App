@@ -15,6 +15,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         Thu 1st Jan
       </div>
       <div
+        class="forecast-summary__icon"
+        data-testid="forecast-icon"
+      >
+        <img />
+      </div>
+      <div
         class="forecast-summary__temperature"
       >
         22°C
@@ -23,12 +29,6 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__description"
       >
         Stub description
-      </div>
-      <div
-        class="forecast-summary__icon"
-        data-testid="forecast-icon"
-      >
-        stubIcon
       </div>
     </div>
     <div
@@ -39,6 +39,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__date"
       >
         Thu 1st Jan
+      </div>
+      <div
+        class="forecast-summary__icon"
+        data-testid="forecast-icon"
+      >
+        <img />
       </div>
       <div
         class="forecast-summary__temperature"
@@ -50,12 +56,6 @@ exports[`ForecastSummaries renders correctly 1`] = `
       >
         Stub description
       </div>
-      <div
-        class="forecast-summary__icon"
-        data-testid="forecast-icon"
-      >
-        stubIcon
-      </div>
     </div>
     <div
       class="forecast-summary"
@@ -65,6 +65,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__date"
       >
         Thu 1st Jan
+      </div>
+      <div
+        class="forecast-summary__icon"
+        data-testid="forecast-icon"
+      >
+        <img />
       </div>
       <div
         class="forecast-summary__temperature"
@@ -76,12 +82,6 @@ exports[`ForecastSummaries renders correctly 1`] = `
       >
         Stub description
       </div>
-      <div
-        class="forecast-summary__icon"
-        data-testid="forecast-icon"
-      >
-        stubIcon
-      </div>
     </div>
     <div
       class="forecast-summary"
@@ -91,6 +91,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__date"
       >
         Thu 1st Jan
+      </div>
+      <div
+        class="forecast-summary__icon"
+        data-testid="forecast-icon"
+      >
+        <img />
       </div>
       <div
         class="forecast-summary__temperature"
@@ -102,12 +108,6 @@ exports[`ForecastSummaries renders correctly 1`] = `
       >
         Stub description
       </div>
-      <div
-        class="forecast-summary__icon"
-        data-testid="forecast-icon"
-      >
-        stubIcon
-      </div>
     </div>
     <div
       class="forecast-summary"
@@ -119,6 +119,12 @@ exports[`ForecastSummaries renders correctly 1`] = `
         Thu 1st Jan
       </div>
       <div
+        class="forecast-summary__icon"
+        data-testid="forecast-icon"
+      >
+        <img />
+      </div>
+      <div
         class="forecast-summary__temperature"
       >
         26°C
@@ -127,12 +133,6 @@ exports[`ForecastSummaries renders correctly 1`] = `
         class="forecast-summary__description"
       >
         Stub description
-      </div>
-      <div
-        class="forecast-summary__icon"
-        data-testid="forecast-icon"
-      >
-        stubIcon
       </div>
     </div>
   </div>
