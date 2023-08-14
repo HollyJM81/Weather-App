@@ -1,9 +1,8 @@
 import React from "react";
 import ForecastSummary from "./ForecastSummary";
 
-function ForecastSummaries({ forecasts }) {
-	// const formattedDate = new Date(date).toDateString();
-	// const maxTemperature = temperature.max;
+function ForecastSummaries(props) {
+	const { forecasts } = props;
 	console.log(forecasts);
 	return (
 		<div className="forecast-summaries">

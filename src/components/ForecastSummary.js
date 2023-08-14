@@ -3,8 +3,7 @@ import moment from "moment";
 
 function ForecastSummary(props) {
 	const { date, temperature, description, icon } = props;
-	// const formattedDate = new Date(date).toDateString();
-	// const maxTemperature = temperature.max;
+
 	return (
 		<div className="forecast-summary">
 			<div className="forecast-summary__date">
