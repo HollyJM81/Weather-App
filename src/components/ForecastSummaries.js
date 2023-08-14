@@ -4,6 +4,7 @@ import ForecastSummary from "./ForecastSummary";
 function ForecastSummaries({ forecasts }) {
 	// const formattedDate = new Date(date).toDateString();
 	// const maxTemperature = temperature.max;
+	console.log(forecasts);
 	return (
 		<div className="forecast-summaries">
 			{forecasts.map((forecast) => (

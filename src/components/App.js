@@ -7,7 +7,7 @@ function App({ forecasts, location }) {
 	return (
 		<div className="forecast">
 			<LocationDetails city={location.city} country={location.country} />
-			<ForecastSummaries forecast={forecasts} />
+			<ForecastSummaries forecasts={forecasts} />
 		</div>
 	);
 }
