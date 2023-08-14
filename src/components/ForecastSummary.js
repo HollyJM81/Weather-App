@@ -1,24 +1,32 @@
 import React from "react";
 import moment from "moment";
 
-import iconData from "../data/iconData.json";
+import { icon } from "../data/iconData.json";
+console.log(icon);
+
+let weatherId;
 
 function ForecastSummary(props) {
 	const { date, temperature, description, icon } = props;
 	const weatherCode = () => {
 		if (icon >= 801) {
-			return icon.slice(0, 1) + "01";
+			weatherId = icon.slice(0, 1) + "01";
 		} else {
-			return icon.slice(0, 1) + "00";
+			weatherId = icon.slice(0, 1) + "00";
 		}
 	};
+	weatherCode(icon);
+	console.log(weatherId);
+	// still not locating the icon properly... we need to grab the icon that corresponds to
+	// the id matching the updated weatherId;
+
 	return (
 		<div className="forecast-summary" data-testid="forecast-summary">
 			<div className="forecast-summary__date">
 				{moment(date).format("ddd Do MMM")}
 			</div>
 			<div className="forecast-summary__icon" data-testid="forecast-icon">
-				<img src={iconData[weatherCode]} />
+				<img alt="weather icon" src="" />
 			</div>
 			<div className="forecast-summary__temperature">
 				{temperature.max}&deg;C

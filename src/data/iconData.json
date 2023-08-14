@@ -4,43 +4,43 @@
 			"id": 200,
 			"main": "Thunderstorm",
 			"description": "thunderstorm",
-			"icon": "09d"
+			"icon": "https://openweathermap.org/img/wn/11d@2x.png"
 		},
 		{
 			"id": 300,
 			"main": "Drizzle",
 			"description": "drizzle",
-			"icon": "10d"
+			"icon": "https://openweathermap.org/img/wn/10d@2x.png"
 		},
 		{
 			"id": 500,
 			"main": "Rain",
 			"description": "rain",
-			"icon": "10d"
+			"icon": "https://openweathermap.org/img/wn/09d@2x.png"
 		},
 		{
 			"id": 600,
 			"main": "Snow",
 			"description": "snow",
-			"icon": "13d"
+			"icon": "https://openweathermap.org/img/wn/13d@2x.png"
 		},
 		{
 			"id": 700,
 			"main": "Fog",
 			"description": "fog",
-			"icon": "50d"
+			"icon": "https://openweathermap.org/img/wn/50d@2x.png"
 		},
 		{
 			"id": 800,
 			"main": "Clear",
 			"description": "clear sky",
-			"icon": "01d"
+			"icon": "https://openweathermap.org/img/wn/01d@2x.png"
 		},
 		{
 			"id": 801,
 			"main": "Clouds",
 			"description": "scattered clouds",
-			"icon": "03d"
+			"icon": "https://openweathermap.org/img/wn/04d@2x.png"
 		}
 	]
 }

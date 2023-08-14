@@ -5,7 +5,6 @@ import "../styles/ForecastSummaries.css";
 
 function ForecastSummaries(props) {
 	const { forecasts } = props;
-	console.log(forecasts);
 	return (
 		<div className="forecast-summaries">
 			{forecasts.map((forecast) => (

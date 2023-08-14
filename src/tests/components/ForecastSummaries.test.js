@@ -7,7 +7,7 @@ const forecastArray = [
 	{
 		date: 1111111,
 		description: "Stub description",
-		icon: "stubIcon",
+		icon: "800",
 		temperature: {
 			min: 8,
 			max: 22,
@@ -16,7 +16,7 @@ const forecastArray = [
 	{
 		date: 2111111,
 		description: "Stub description",
-		icon: "stubIcon",
+		icon: "700",
 		temperature: {
 			min: 9,
 			max: 23,
@@ -25,7 +25,7 @@ const forecastArray = [
 	{
 		date: 3111111,
 		description: "Stub description",
-		icon: "stubIcon",
+		icon: "803",
 		temperature: {
 			min: 10,
 			max: 24,
@@ -34,7 +34,7 @@ const forecastArray = [
 	{
 		date: 4111111,
 		description: "Stub description",
-		icon: "stubIcon",
+		icon: "600",
 		temperature: {
 			min: 11,
 			max: 25,
@@ -43,7 +43,7 @@ const forecastArray = [
 	{
 		date: 5111111,
 		description: "Stub description",
-		icon: "stubIcon",
+		icon: "500",
 		temperature: {
 			min: 12,
 			max: 26,
