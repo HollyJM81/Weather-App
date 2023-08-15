@@ -3,17 +3,17 @@ import ForecastSummary from "./ForecastSummary";
 
 import "../styles/ForecastSummaries.css";
 
-function ForecastSummaries(props) {
-	const { forecasts } = props;
+function ForecastSummaries({ forecasts, onForecastSelect }) {
 	return (
 		<div className="forecast-summaries">
 			{forecasts.map((forecast) => (
 				<ForecastSummary
 					key={forecast.date}
 					date={forecast.date}
-					icon={forecast.icon}
-					temperature={forecast.temperature}
 					description={forecast.description}
+					icon={forecast.icon}
+					onSelect={onForecastSelect}
+					temperature={forecast.temperature}
 				/>
 			))}
 		</div>

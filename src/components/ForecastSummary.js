@@ -6,7 +6,8 @@ import iconData from "../data/iconData.json";
 let weatherId;
 
 function ForecastSummary(props) {
-	const { date, temperature, description, icon } = props;
+	const { date, description, icon, onSelect, temperature } = props;
+
 	const weatherCode = () => {
 		if (icon >= 801) {
 			weatherId = icon.slice(0, 1) + "01";
@@ -15,6 +16,7 @@ function ForecastSummary(props) {
 		}
 	};
 	weatherCode();
+
 	return (
 		<div className="forecast-summary" data-testid="forecast-summary">
 			<div className="forecast-summary__date">
@@ -27,6 +29,9 @@ function ForecastSummary(props) {
 				{temperature.max}&deg;C
 			</div>
 			<div className="forecast-summary__description">{description}</div>
+			<button type="button" onClick={() => onSelect(date)}>
+				More Details
+			</button>
 		</div>
 	);
 }
