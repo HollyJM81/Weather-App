@@ -2,6 +2,7 @@ import React from "react";
 import moment from "moment";
 
 import iconData from "../data/iconData.json";
+
 let weatherId;
 
 function ForecastSummary(props) {

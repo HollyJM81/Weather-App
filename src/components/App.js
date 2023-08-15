@@ -2,14 +2,14 @@ import React from "react";
 import "../styles/App.css";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
+import ForecastDetails from "./ForecastDetails";
 
-function App({ forecasts, location, iconData }) {
-	console.log(iconData);
+function App({ forecasts, location }) {
 	return (
 		<div className="weather-app">
 			<LocationDetails city={location.city} country={location.country} />
 			<ForecastSummaries forecasts={forecasts} />
-			<icons iconData={iconData} />
+			<ForecastDetails forecast={forecasts[0]} />
 		</div>
 	);
 }
