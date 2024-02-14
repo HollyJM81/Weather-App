@@ -1,3 +1,3 @@
 # Weather App
 
-Completed as part of the Command Shift Full-Stack Bootcamp (March'23 Cohort)
+Completed as part of the Command Shift Full-Stack Bootcamp (March'23 Cohort). Still some tweaks to add on a rainy day...
